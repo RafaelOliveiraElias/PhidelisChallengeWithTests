@@ -1,6 +1,11 @@
+using Phidelis_Challenge.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddDbContext<StudentsContext>(options => 
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ConexãoPadrão")));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
