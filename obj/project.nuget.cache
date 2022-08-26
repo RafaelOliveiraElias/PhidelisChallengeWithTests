@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "q5/O9lUpS65Dvp0Wn3xIeEeQhePd5ROQcGjYJSIfCROZgSfsA3H40xysci7E5xLGspEzAQYDFe8d0gnXVxdLqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\faeli\\Documents\\GitHub\\Phidelis-Challenge\\Phidelis-Challenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\faeli\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\faeli\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\faeli\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\faeli\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\faeli\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\faeli\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
