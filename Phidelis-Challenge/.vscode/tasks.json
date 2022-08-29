@@ -1,13 +1,40 @@
 {
-    "version": "2.0.0",
-    "tasks": [
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "clean",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"clean",
+				"${workspaceFolder}",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile"
+		},
+		{
+			"label": "publish-release",
+			"command": "dotnet",
+			"type": "process",
+			"args": [
+				"publish",
+				"${workspaceFolder}",
+				"--configuration",
+				"Release",
+				"/property:GenerateFullPaths=true",
+				"/consoleloggerparameters:NoSummary"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": "clean"
+        },
         {
             "label": "build",
             "command": "dotnet",
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ApiTest/ApiTest.csproj",
+                "${workspaceFolder}/Phidelis-Challenge.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +46,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/ApiTest/ApiTest.csproj",
+                "${workspaceFolder}/Phidelis-Challenge.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,9 +60,9 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/ApiTest/ApiTest.csproj"
+                "${workspaceFolder}/Phidelis-Challenge.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
-    ]
+	]
 }

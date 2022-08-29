@@ -1,5 +1,4 @@
 {
-    "appService.preDeployTask": "publish-release",
-    "appService.deploySubpath": "bin\\Release\\net6.0\\publish",
-    "appService.defaultWebAppToDeploy": "/subscriptions/fa7c5b73-088f-4b37-9de4-94428037b871/microsoft.web/sites/subscriptions/fa7c5b73-088f-4b37-9de4-94428037b871/resourceGroups/sistemadesafio/providers/Microsoft.Web/sites/desafiophidelisrafael"
+    "appService.defaultWebAppToDeploy": "/subscriptions/fa7c5b73-088f-4b37-9de4-94428037b871/microsoft.web/sites/subscriptions/fa7c5b73-088f-4b37-9de4-94428037b871/resourceGroups/sistemadesafio/providers/Microsoft.Web/sites/desafiophidelisrafael",
+    "appService.deploySubpath": "Phidelis-Challenge"
 }
