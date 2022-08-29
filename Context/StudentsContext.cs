@@ -15,5 +15,7 @@ namespace Phidelis_Challenge.Context
         }
 
         public DbSet<Student> Students{ get; set; }
+        public DbSet<Time> Times{ get; set; }
+
     }
 }
