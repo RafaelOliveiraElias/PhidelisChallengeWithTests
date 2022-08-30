@@ -21,17 +21,30 @@ namespace Phidelis_Challenge
             {
                 using(var scope = _serviceProvider.CreateAsyncScope())
                 {
-                    var scopedService = scope.ServiceProvider.GetRequiredService<IScopedService>();
-                    while(scopedService.TimeSeconds() < 6000000)
+                    bool checker =  true;
+                    while(checker)
                     {
+                        var scopedService = scope.ServiceProvider.GetRequiredService<IScopedService>();
+                        var timeSecondsReturn =  scopedService.TimeSeconds();
+                        if(timeSecondsReturn >= 300000)
+                        {
+                            checker = false;
+                            break;
+                        }
                         if(scopedService.GetListSize() < 100)
                         {
                             await scopedService.Write();
                         }
-                        await Task.Delay(TimeSpan.FromSeconds(scopedService.TimeSeconds()), stoppingToken);
+                        await Task.Delay(TimeSpan.FromSeconds(timeSecondsReturn));
                     }
-                    await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
+                    var scopedServiceAgain = scope.ServiceProvider.GetRequiredService<IScopedService>();
+                    var timeSecondsChecker =  scopedServiceAgain.TimeSeconds();
+                    if(timeSecondsChecker < 300000)
+                    {
+                        checker = true;
+                    }
                 }
+                await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
             }
         }
     }
