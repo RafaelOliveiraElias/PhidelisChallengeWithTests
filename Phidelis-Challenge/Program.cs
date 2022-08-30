@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen(options =>
     {
         Version = "v1",
         Title = "Phidelis Students Api",
-        Description = "API que simula as matrículas realizadas na escola instantaneamente. \n\n **Informações importantes**: \n\n **-** Timer setado para para um valor maior que 600000 segundos faz com que a aplicação não atualize o banco de dados automaticamente \n\n **-** Atualização automática possui tem um valor máximo de 100 estudantes no banco de dados",
+        Description = "API Crud de estudantes matriculados na escola e que simula as matrículas realizadas na escola instantaneamente. \n\nPeriodicamente a api adiciona 5 estudantes com dados aleatórios no banco de dados do Azure, a periodicidade pode ser editada no '/Students/SetTimer'.  \n\n **Informações importantes**: \n\n **-** Timer setado para para um valor maior que 600000 segundos faz com que a aplicação não atualize o banco de dados automaticamente \n\n **-** Atualização automática possui tem um valor máximo de 100 estudantes no banco de dados",
         TermsOfService = new Uri("https://example.com/terms"),
         Contact = new OpenApiContact
         {
