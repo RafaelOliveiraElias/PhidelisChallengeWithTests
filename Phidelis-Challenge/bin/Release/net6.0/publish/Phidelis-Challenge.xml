@@ -46,7 +46,7 @@
         </member>
         <member name="M:Phidelis_Challenge.Controllers.StudentsController.GetByName(System.String)">
             <summary>
-            Seleciona estudantes a partir do seu nome.
+            Seleciona estudantes a partir de um nome.
             </summary>
             <param name="nome"></param>
             <response code="200">Encontrado com Sucesso</response>

@@ -58,7 +58,7 @@ namespace Phidelis_Challenge.Controllers
             adding.ParentName = student.ParentName;
             _context.Add(adding);
             _context.SaveChanges();
-            return Created("Student", student);
+            return Created("Student", adding);
         }
         /// <summary>
         /// Retorna um estudante da lista de acordo com seu id.
@@ -120,7 +120,7 @@ namespace Phidelis_Challenge.Controllers
             return NoContent();
         }
         /// <summary>
-        /// Seleciona estudantes a partir do seu nome.
+        /// Seleciona estudantes a partir de um nome.
         /// </summary>
         /// <param name="nome"></param>
         /// <response code="200">Encontrado com Sucesso</response>
