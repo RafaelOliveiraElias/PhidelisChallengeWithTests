@@ -6,6 +6,9 @@ using Phidelis_Challenge.Context;
 using Phidelis_Challenge.Entities;
 using Phidelis_Challenge.utils;
 
+// Criando o Escopo do hosted service adicionando os estudantes no AddingNewStudent e fazendo WhenAll de 5 estudantes, como pedido.
+// TimeSeconds busca o valor do Timer em segundos no banco de dados.
+
 namespace Phidelis_Challenge.HostedService
 {
     public interface IScopedService

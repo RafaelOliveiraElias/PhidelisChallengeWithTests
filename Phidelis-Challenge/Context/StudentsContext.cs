@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Phidelis_Challenge.Entities;
 
+#pragma warning disable CS1591
 namespace Phidelis_Challenge.Context
 {
     public class StudentsContext : DbContext
@@ -19,3 +20,4 @@ namespace Phidelis_Challenge.Context
 
     }
 }
+#pragma warning disable CS1591

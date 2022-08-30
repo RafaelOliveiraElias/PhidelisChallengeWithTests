@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Phidelis_Challenge.HostedService;
-
+//criando o hosted service na api:
 namespace Phidelis_Challenge
 {
     public class MyBackgroundService : BackgroundService
@@ -17,17 +17,20 @@ namespace Phidelis_Challenge
         }
         protected override async Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            while(!stoppingToken.IsCancellationRequested)
+            while(!stoppingToken.IsCancellationRequested )
             {
                 using(var scope = _serviceProvider.CreateAsyncScope())
                 {
                     var scopedService = scope.ServiceProvider.GetRequiredService<IScopedService>();
-                    if(scopedService.GetListSize() < 100)
+                    while(scopedService.TimeSeconds() < 6000000)
                     {
-                        await scopedService.Write();
+                        if(scopedService.GetListSize() < 100)
+                        {
+                            await scopedService.Write();
+                        }
+                        await Task.Delay(TimeSpan.FromSeconds(scopedService.TimeSeconds()), stoppingToken);
                     }
-                    System.Console.WriteLine(scopedService.GetListSize());                    
-                    await Task.Delay(TimeSpan.FromSeconds(scopedService.TimeSeconds() | 10), stoppingToken);
+                    await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
                 }
             }
         }

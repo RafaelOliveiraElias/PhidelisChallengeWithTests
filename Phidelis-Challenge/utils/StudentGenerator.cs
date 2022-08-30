@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using System.Text.Json;
 using Phidelis_Challenge.Entities;
 
+// GERADOR DE ESTUDANTE ALEATÓRIO COM API DE CPF E NOMES
 namespace Phidelis_Challenge.utils
 {
     public class StudentGenerator
@@ -45,7 +46,7 @@ namespace Phidelis_Challenge.utils
                 throw;
             }
         }
-        public async Task<Student> full ()
+        public async Task<Student> full()
         {
             Student TestStudent = new Student();
             TestStudent.Name = await GenarateRandomStudent();
