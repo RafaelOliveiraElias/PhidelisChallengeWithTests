@@ -146,3 +146,4 @@ C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\ApiTest\obj\Debug\net
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\ApiTest\obj\Debug\net6.0\ref\ApiTest.dll
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\ApiTest\bin\Debug\net6.0\Microsoft.AspNetCore.TestHost.dll
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\ApiTest\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\ApiTest\bin\Debug\net6.0\Phidelis-Challenge.xml

@@ -23,18 +23,12 @@ builder.Services.AddSwaggerGen(options =>
     {
         Version = "v1",
         Title = "Phidelis Students Api",
-        Description = "API Crud de estudantes matriculados na escola e que simula as matrículas realizadas na escola instantaneamente. \n\nPeriodicamente a api adiciona 5 estudantes com dados aleatórios no banco de dados do Azure, a periodicidade pode ser editada no '/Students/SetTimer'.  \n\n **Informações importantes**: \n\n **-** Timer setado para para um valor maior que 600000 segundos faz com que a aplicação não atualize o banco de dados automaticamente \n\n **-** Atualização automática possui tem um valor máximo de 100 estudantes no banco de dados",
-        TermsOfService = new Uri("https://example.com/terms"),
-        Contact = new OpenApiContact
+        Description = "API Crud de estudantes matriculados na escola, que simula as matrículas realizadas na instituição instantaneamente. \n\nPeriodicamente a API adiciona 5 estudantes com dados aleatórios no banco de dados do Azure. A periodicidade pode ser editada no '/Students/SetTimer'.  \n\n **Informações importantes**: \n\n **-** Timer setado para um valor maior que 600000 segundos faz com que a aplicação não atualize o banco de dados automaticamente.\n\n **-** Atualização automática possui um valor máximo de 100 estudantes no banco de dados.",
+        Contact= new OpenApiContact
         {
-            Name = "Example Contact",
-            Url = new Uri("https://example.com/contact")
+            Name = "Contato do autor:",
+            Url = new Uri("https://www.linkedin.com/in/rafael-oliveira-elias/")
         },
-        License = new OpenApiLicense
-        {
-            Name = "Example License",
-            Url = new Uri("https://example.com/license")
-        }
     });
 
     // using System.Reflection;

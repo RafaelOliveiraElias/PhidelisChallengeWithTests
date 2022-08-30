@@ -45,4 +45,5 @@ C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bi
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Release\net6.0\publish\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Release\net6.0\publish\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Release\net6.0\publish\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Release\net6.0\publish\Phidelis-Challenge.xml
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Release\net6.0\publish\Phidelis-Challenge.deps.json

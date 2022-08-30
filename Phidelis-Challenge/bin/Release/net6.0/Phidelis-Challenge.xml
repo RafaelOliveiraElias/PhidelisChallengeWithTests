@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Phidelis-Challenge</name>
+    </assembly>
+    <members>
+        <member name="M:Phidelis_Challenge.Controllers.StudentsController.FindAll">
+            <summary>
+            Retorna toda a lista de matriculados.
+            </summary>
+            <returns></returns>
+            <response code="200">Sucesso em listar todos os estudantes matriculados.</response>
+        </member>
+        <member name="M:Phidelis_Challenge.Controllers.StudentsController.Create(Phidelis_Challenge.utils.StudentBody)">
+            <summary>
+            Adiciona estudante na lista de matriculados.
+            </summary>
+            <param name="student"></param>
+            <returns>Novo estudante criado.</returns>
+            <response code="201">Novo estudante criado com sucesso.</response>
+            <response code="400">O Body está vazio</response>
+        </member>
+        <member name="M:Phidelis_Challenge.Controllers.StudentsController.GetById(System.Int32)">
+            <summary>
+            Retorna um estudante da lista de acordo com seu id.
+            </summary>
+            <response code="200">Encontrado com Sucesso</response>
+            <response code="404">Nome não encontrado</response>
+        </member>
+        <member name="M:Phidelis_Challenge.Controllers.StudentsController.Update(System.Int32,Phidelis_Challenge.utils.StudentBody)">
+            <summary>
+            Deleta estudantes da lista por id.
+            </summary>
+            <param name="id"></param>
+            <param name="student"></param>
+            <response code="201">Estudante editado com sucesso.</response>
+            <response code="400">O Body está vazio</response>
+        </member>
+        <member name="M:Phidelis_Challenge.Controllers.StudentsController.Delete(System.Int32)">
+            <summary>
+            Deleta estudantes da lista por id.
+            </summary>
+            <param name="id"></param>
+            <response code="204">Estudante deletado com sucesso.</response>
+            <response code="404">Id não encontrado</response>
+        </member>
+        <member name="M:Phidelis_Challenge.Controllers.StudentsController.GetByName(System.String)">
+            <summary>
+            Seleciona estudantes a partir do seu nome.
+            </summary>
+            <param name="nome"></param>
+            <response code="200">Encontrado com Sucesso</response>
+            <response code="404">Nome não encontrado</response>
+        </member>
+        <member name="M:Phidelis_Challenge.Controllers.StudentsController.SetTimer(System.Int32)">
+            <summary>
+            Configurar o tempo de atualização de estudantes adicionados aleatoriamente.
+            </summary>
+            <param name="Seconds"></param>
+            <response code="201">Timer editado com sucesso.</response>
+            <response code="400">Tempo inválido</response>
+        </member>
+    </members>
+</doc>

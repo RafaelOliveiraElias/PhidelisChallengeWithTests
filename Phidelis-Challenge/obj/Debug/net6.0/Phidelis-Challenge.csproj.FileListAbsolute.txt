@@ -69,6 +69,7 @@ C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bi
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Debug\net6.0\Phidelis-Challenge.runtimeconfig.json
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Debug\net6.0\Phidelis-Challenge.dll
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Debug\net6.0\Phidelis-Challenge.pdb
+C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Debug\net6.0\Phidelis-Challenge.xml
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Debug\net6.0\Humanizer.dll
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Debug\net6.0\Microsoft.AspNetCore.TestHost.dll
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
@@ -125,8 +126,7 @@ C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\ob
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Debug\net6.0\Phidelis-Challenge.csproj.CopyComplete
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Debug\net6.0\Phidelis-Challenge.dll
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Debug\net6.0\refint\Phidelis-Challenge.dll
+C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Debug\net6.0\Phidelis-Challenge.xml
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Debug\net6.0\Phidelis-Challenge.pdb
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Debug\net6.0\Phidelis-Challenge.genruntimeconfig.cache
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Debug\net6.0\ref\Phidelis-Challenge.dll
-C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Debug\net6.0\Phidelis-Challenge.xml
-C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Debug\net6.0\Phidelis-Challenge.xml

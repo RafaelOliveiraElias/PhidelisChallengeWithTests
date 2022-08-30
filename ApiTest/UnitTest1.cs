@@ -24,6 +24,6 @@ public class UnitTest1
             var result = responseTask.Result;
             string readTask = await result.Content.ReadAsStringAsync();
             Assert.Equal(HttpStatusCode.OK, result.StatusCode);
-            Assert.Equal(readTask.Contains("Rafael Oliveira Elias"), true);
+            Assert.Equal(readTask.Contains("a"), true);
         }
     }

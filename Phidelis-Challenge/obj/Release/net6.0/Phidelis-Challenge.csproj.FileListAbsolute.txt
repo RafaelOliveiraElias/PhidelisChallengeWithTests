@@ -125,3 +125,5 @@ C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\ob
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Release\net6.0\Phidelis-Challenge.pdb
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Release\net6.0\Phidelis-Challenge.genruntimeconfig.cache
 C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Release\net6.0\ref\Phidelis-Challenge.dll
+C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\bin\Release\net6.0\Phidelis-Challenge.xml
+C:\Users\faeli\Documents\GitHub\PhidelisChallengeWithTests\Phidelis-Challenge\obj\Release\net6.0\Phidelis-Challenge.xml
