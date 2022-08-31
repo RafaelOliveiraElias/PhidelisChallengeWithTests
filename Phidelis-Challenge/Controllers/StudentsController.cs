@@ -31,12 +31,11 @@ namespace Phidelis_Challenge.Controllers
         [HttpGet]
         [ProducesResponseType(200)]
         [ProducesResponseType(500)]
-        public async Task<IActionResult> FindAll()
+        public IActionResult FindAll()
         {
             StudentGenerator test = new StudentGenerator();
-            var allStudents = _context.Students.Where(x => x.Name.Contains(""));
+            List<Student> allStudents = _context.Students.ToList<Student>();
             _context.SaveChanges();
-            System.Console.WriteLine(await test.GenarateRandomStudent());
             return Ok(allStudents);
         }
         /// <summary>
@@ -83,10 +82,10 @@ namespace Phidelis_Challenge.Controllers
         /// </summary>
         /// <param name="id"></param>
         /// <param name="student"></param>
-        /// <response code="201">Estudante editado com sucesso.</response>
+        /// <response code="202">Estudante editado com sucesso.</response>
         /// <response code="400">O Body está vazio</response>
         [HttpPut("{id}")]
-        [ProducesResponseType(201)]
+        [ProducesResponseType(202)]
         [ProducesResponseType(400)]
         [ProducesResponseType(500)]
         public IActionResult Update(int id, StudentBody student)
@@ -142,7 +141,7 @@ namespace Phidelis_Challenge.Controllers
         /// Configurar o tempo de atualização de estudantes adicionados aleatoriamente.
         /// </summary>
         /// <param name="Seconds"></param>
-        /// <response code="201">Timer editado com sucesso.</response>
+        /// <response code="202">Timer editado com sucesso.</response>
         /// <response code="400">Tempo inválido</response>
         [HttpPut("SetTimer")]
         [ProducesResponseType(202)]

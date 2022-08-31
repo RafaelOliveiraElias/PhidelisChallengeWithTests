@@ -33,7 +33,7 @@
             </summary>
             <param name="id"></param>
             <param name="student"></param>
-            <response code="201">Estudante editado com sucesso.</response>
+            <response code="202">Estudante editado com sucesso.</response>
             <response code="400">O Body está vazio</response>
         </member>
         <member name="M:Phidelis_Challenge.Controllers.StudentsController.Delete(System.Int32)">
@@ -57,7 +57,7 @@
             Configurar o tempo de atualização de estudantes adicionados aleatoriamente.
             </summary>
             <param name="Seconds"></param>
-            <response code="201">Timer editado com sucesso.</response>
+            <response code="202">Timer editado com sucesso.</response>
             <response code="400">Tempo inválido</response>
         </member>
     </members>
